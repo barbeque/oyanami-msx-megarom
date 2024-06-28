@@ -3910,12 +3910,6 @@
 		(uuid "78601cbf-12bc-430d-a863-6d268316830d")
 	)
 	(junction
-		(at 238.76 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "792dbbe9-2110-4bab-9864-21e11c133462")
-	)
-	(junction
 		(at 48.26 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4033,10 +4027,6 @@
 		(at 38.1 97.79)
 		(uuid "fce85520-0306-47e1-ad17-e61a65c7dfa6")
 	)
-	(no_connect
-		(at 38.1 113.03)
-		(uuid "fd653a1c-b75f-4e0a-a3cf-70788af94b77")
-	)
 	(wire
 		(pts
 			(xy 227.33 90.17) (xy 238.76 90.17)
@@ -4139,7 +4129,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 85.09) (xy 238.76 90.17)
+			(xy 238.76 85.09) (xy 238.76 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4306,16 +4296,6 @@
 			(type default)
 		)
 		(uuid "91d11caf-72d3-4216-bf25-14ae1ccb52aa")
-	)
-	(wire
-		(pts
-			(xy 238.76 90.17) (xy 238.76 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95410334-090a-41aa-addc-7dc75ddcf2d9")
 	)
 	(wire
 		(pts
@@ -5362,6 +5342,17 @@
 			(justify right bottom)
 		)
 		(uuid "d1c0a63e-5bad-40bb-967e-fe77a8282bd6")
+	)
+	(label "~{RD}"
+		(at 38.1 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d21f618f-ae5f-4340-bd38-2dfa7308ef55")
 	)
 	(label "A9"
 		(at 248.92 62.23 180)
