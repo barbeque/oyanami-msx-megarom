@@ -5,6 +5,386 @@
 	(uuid "3ac3ee82-802b-4f0f-99fb-f88e392aa8f2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74xx:74LS670"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS670"
+				(at -7.62 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS670"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 x 4 Register Files 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL Register 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?16*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LS670_1_0"
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 12.7 180)
+					(length 5.08)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "~{Er}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "~{Ew}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "Wb"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "Wa"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 20.32 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "Rb"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "Ra"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Q4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS670_1_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
@@ -2063,6 +2443,10 @@
 		(uuid "dfef3847-c427-4d10-a7a3-eb38789e236d")
 	)
 	(no_connect
+		(at 38.1 129.54)
+		(uuid "2b84f050-e2fa-4fd5-b6bb-5f8877e0504b")
+	)
+	(no_connect
 		(at 53.34 71.12)
 		(uuid "5cd6d522-8555-4594-9fed-170513b087ac")
 	)
@@ -2209,6 +2593,78 @@
 			(type default)
 		)
 		(uuid "eced7c17-44ad-42d4-8753-c6907cc90b40")
+	)
+	(text "Write address"
+		(exclude_from_sim no)
+		(at 92.964 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "254c9399-3d73-4c3e-8b34-6b4bc1231e7c")
+	)
+	(text "$8000-bfff"
+		(exclude_from_sim no)
+		(at 27.686 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60be2c0a-e7c7-4034-9e38-b0e95b6edf33")
+	)
+	(text "$4000-7fff"
+		(exclude_from_sim no)
+		(at 27.94 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7612bb83-9585-4282-8761-d03335533d5c")
+	)
+	(text "Read address"
+		(exclude_from_sim no)
+		(at 92.964 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c7b5064-c233-4ad0-85eb-e66d3c85f258")
+	)
+	(text "$4000-bfff"
+		(exclude_from_sim no)
+		(at 27.686 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "880f1f18-664d-4402-aa57-d96d9a9e9ba7")
+	)
+	(text "Page (8kB)	                       Switching address	                Initial segment\n4000h~5FFFh (mirror: C000h~DFFFh)	None	                                Always 0\n6000h~7FFFh (mirror: E000h~FFFFh)	6000h (mirrors: 6001h~7FFFh)	1\n8000h~9FFFh (mirror: 0000h~1FFFh)	8000h (mirrors: 8001h~9FFFh)	Random\nA000h~BFFFh (mirror: 2000h~3FFFh)	A000h (mirrors: A001h~BFFFh)	Random"
+		(exclude_from_sim no)
+		(at 21.844 187.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e7924a5-7dbd-45c8-8e85-910a41a39c30")
+	)
+	(text "(Everything needs ~{SLTSEL})\nPage 0: A14\nPage 1: A13 + A14\nPage 2: A15\nPage 3: A13 + A15\nHow to deal with mirrors?\nHow to do the 2-bit selection?"
+		(exclude_from_sim no)
+		(at 21.844 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cbce268d-745d-43b2-b7f2-aed6cf411aae")
 	)
 	(label "D7"
 		(at 59.69 97.79 0)
@@ -2799,6 +3255,118 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS670")
+		(at 114.3 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79ccb671-85c7-4701-8dd4-a20f7a0008f2")
+		(property "Reference" "U3"
+			(at 116.4941 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS670"
+			(at 116.4941 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS670"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 x 4 Register Files 3-State Outputs"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68a7f099-e22e-4334-8adf-ad61b339540b")
+		)
+		(pin "10"
+			(uuid "3fc1e865-e083-48ad-8db9-903d7b91998f")
+		)
+		(pin "11"
+			(uuid "73ad7238-5b70-4a1c-ae1f-588025940142")
+		)
+		(pin "12"
+			(uuid "0f711f3e-e052-4d0a-a488-f4cbd2157b9d")
+		)
+		(pin "13"
+			(uuid "d21f3fa3-5933-42f8-a157-e5c98a16ebcf")
+		)
+		(pin "14"
+			(uuid "0b6a3a67-da7c-46ba-90b1-d52f9ab8e2c3")
+		)
+		(pin "15"
+			(uuid "489f7a05-c591-4f9e-838c-46e606bc6bc3")
+		)
+		(pin "16"
+			(uuid "45d9aa86-602a-429d-8540-63ab9cd0ffcd")
+		)
+		(pin "2"
+			(uuid "59534338-97c8-4b70-b0cf-083d7da57d15")
+		)
+		(pin "3"
+			(uuid "014aa3e7-5de9-46c0-8541-45238b0db065")
+		)
+		(pin "4"
+			(uuid "ec3c42ba-ce8c-42de-8688-d340b0aede3f")
+		)
+		(pin "5"
+			(uuid "aa5e203d-a2b8-48cd-b2a5-5facab023d12")
+		)
+		(pin "6"
+			(uuid "53039231-7487-48a1-9f76-ec4e00cb3290")
+		)
+		(pin "7"
+			(uuid "764a0eb8-f335-4063-ac70-6eba92f96412")
+		)
+		(pin "8"
+			(uuid "c5e65665-932e-4fac-9d9f-3793a9866a97")
+		)
+		(pin "9"
+			(uuid "98473e0d-ad48-4d46-b333-22fdf75ea1c5")
+		)
+		(instances
+			(project ""
+				(path "/3ac3ee82-802b-4f0f-99fb-f88e392aa8f2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 45.72 58.42 0)
 		(unit 1)
@@ -2859,6 +3427,72 @@
 			(project ""
 				(path "/3ac3ee82-802b-4f0f-99fb-f88e392aa8f2"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "987435b1-473d-449d-b2e3-1f25309f228f")
+		(property "Reference" "#PWR06"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b83d508-3e11-4ab3-bfdb-811b2ab9246b")
+		)
+		(instances
+			(project ""
+				(path "/3ac3ee82-802b-4f0f-99fb-f88e392aa8f2"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3283,6 +3917,72 @@
 			(project ""
 				(path "/3ac3ee82-802b-4f0f-99fb-f88e392aa8f2"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 114.3 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe062081-dbcd-4d07-98bb-69008319ea4a")
+		(property "Reference" "#PWR07"
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 114.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d9e34ec-cc71-4093-a8b6-5c9636088aca")
+		)
+		(instances
+			(project ""
+				(path "/3ac3ee82-802b-4f0f-99fb-f88e392aa8f2"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
