@@ -2665,7 +2665,7 @@
 		)
 		(uuid "8e7924a5-7dbd-45c8-8e85-910a41a39c30")
 	)
-	(text "(Everything needs ~{SLTSEL})\nPage 0: A14\nPage 1: A13 + A14\nPage 2: A15\nPage 3: A13 + A15\nHow to deal with mirrors?\nHow to do the 2-bit selection?"
+	(text "(Everything needs ~{SLTSEL})\nPage 0: A14\nPage 1: A13 + A14\nPage 2: A15\nPage 3: A13 + A15\nHow to deal with mirrors?\nHow to do the 2-bit selection?\n (at least we can reuse some decode logic, it is the same switching address as the page space)"
 		(exclude_from_sim no)
 		(at 21.844 165.1 0)
 		(effects
@@ -2678,6 +2678,7 @@
 	)
 	(label "A0"
 		(at 168.91 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,6 +2689,7 @@
 	)
 	(label "A1"
 		(at 168.91 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2731,6 +2733,7 @@
 	)
 	(label "A13"
 		(at 59.69 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2774,6 +2777,7 @@
 	)
 	(label "A1"
 		(at 59.69 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2806,6 +2810,7 @@
 	)
 	(label "A6"
 		(at 59.69 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,6 +2821,7 @@
 	)
 	(label "A5"
 		(at 168.91 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2826,6 +2832,7 @@
 	)
 	(label "A12"
 		(at 59.69 133.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2836,6 +2843,7 @@
 	)
 	(label "A4"
 		(at 168.91 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2846,6 +2854,7 @@
 	)
 	(label "A2"
 		(at 168.91 44.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2856,6 +2865,7 @@
 	)
 	(label "A5"
 		(at 59.69 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2866,6 +2876,7 @@
 	)
 	(label "A12"
 		(at 168.91 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2876,6 +2887,7 @@
 	)
 	(label "A3"
 		(at 168.91 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2886,6 +2898,7 @@
 	)
 	(label "A3"
 		(at 59.69 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2896,6 +2909,7 @@
 	)
 	(label "A11"
 		(at 59.69 130.81 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2906,6 +2920,7 @@
 	)
 	(label "A8"
 		(at 59.69 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2927,6 +2942,7 @@
 	)
 	(label "A9"
 		(at 59.69 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,6 +2953,7 @@
 	)
 	(label "A6"
 		(at 168.91 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2969,6 +2986,7 @@
 	)
 	(label "A4"
 		(at 59.69 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3001,6 +3019,7 @@
 	)
 	(label "A8"
 		(at 168.91 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3011,6 +3030,7 @@
 	)
 	(label "A7"
 		(at 168.91 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3043,6 +3063,7 @@
 	)
 	(label "A7"
 		(at 59.69 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,6 +3074,7 @@
 	)
 	(label "A0"
 		(at 59.69 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3063,6 +3085,7 @@
 	)
 	(label "A13"
 		(at 168.91 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3073,6 +3096,7 @@
 	)
 	(label "A9"
 		(at 168.91 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3083,6 +3107,7 @@
 	)
 	(label "A2"
 		(at 59.69 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3104,6 +3129,7 @@
 	)
 	(label "A10"
 		(at 168.91 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3114,6 +3140,7 @@
 	)
 	(label "A10"
 		(at 59.69 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3124,6 +3151,7 @@
 	)
 	(label "A11"
 		(at 168.91 67.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
