@@ -1,3 +1,5 @@
 *.lck
+msx-megarom-v*
 *.bak
+*.zip
 *backup*

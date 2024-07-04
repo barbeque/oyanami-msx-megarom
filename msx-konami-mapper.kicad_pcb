@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "msx-megarom-v1")
 		)
 	)
 	(net 0 "")
@@ -1023,7 +1023,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.27 1.27 360)
+			(at 7.27 1.27 0)
 			(layer "F.Fab")
 			(uuid "90cc5adc-c1b5-4ce2-9633-1275877072ad")
 			(effects
@@ -4029,7 +4029,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "e18ec450-836b-44bb-9662-133a136d9278")
-		(at 201.93 90.805 -90)
+		(at 201.93 87.63 -90)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
 		(property "Reference" "C1"
@@ -5374,7 +5374,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "leadedsolder.com 2024 v1.0"
+	(gr_text "leadedsolder.com 2024 v1.1"
 		(at 204.7 62.1 0)
 		(layer "F.SilkS")
 		(uuid "0860719d-9614-468a-888a-e880d6c1f063")
@@ -8191,6 +8191,14 @@
 		(uuid "a06a9335-0c7a-481b-aea2-4e8eff035720")
 	)
 	(segment
+		(start 202.565 86.36)
+		(end 202.565 59.055)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "47ed06cc-326c-40e8-926f-57b1eeba4bed")
+	)
+	(segment
 		(start 167.64 59.055)
 		(end 167.64 64.135)
 		(width 0.2)
@@ -8205,14 +8213,6 @@
 		(layer "F.Cu")
 		(net 26)
 		(uuid "732c0015-c6c5-4b20-88db-be1ba93a15eb")
-	)
-	(segment
-		(start 202.565 88.9)
-		(end 202.565 59.055)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "e59057bf-29da-42eb-8ad4-fad0100a9365")
 	)
 	(segment
 		(start 179.705 100.965)
@@ -8271,12 +8271,20 @@
 		(uuid "68dc0da6-aa30-447d-9c83-50bca6a9c691")
 	)
 	(via
-		(at 202.565 88.9)
+		(at 202.565 86.36)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 26)
-		(uuid "f6cbe184-018c-43f6-b04b-e6721ab66fb0")
+		(uuid "96588d78-b0dc-4da2-99b6-ff9cf5bfdabe")
+	)
+	(segment
+		(start 198.12 88.9)
+		(end 200.66 86.36)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 26)
+		(uuid "53acf29f-498e-40d1-b762-ea9fde6cf32d")
 	)
 	(segment
 		(start 179.705 95.885)
@@ -8293,6 +8301,14 @@
 		(layer "B.Cu")
 		(net 26)
 		(uuid "8d944cc0-c02c-472b-8212-b9d868fc918c")
+	)
+	(segment
+		(start 200.66 86.36)
+		(end 202.565 86.36)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 26)
+		(uuid "a1334526-a749-46ee-9a25-cb95f9e475d7")
 	)
 	(segment
 		(start 170.815 100.965)
@@ -8317,14 +8333,6 @@
 		(layer "B.Cu")
 		(net 26)
 		(uuid "d8908f1e-ea9e-4bfc-b2e9-b2e1ce5cae23")
-	)
-	(segment
-		(start 198.12 88.9)
-		(end 202.565 88.9)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 26)
-		(uuid "d8c3ac3e-6194-46ab-b9e4-eb0da9e73252")
 	)
 	(segment
 		(start 170.18 101.6)
@@ -9661,6 +9669,14 @@
 		(layer "B.Cu")
 		(net 48)
 		(uuid "e6b67e17-70b3-481a-8674-8af80f705bc6")
+	)
+	(segment
+		(start 201.93 93.305)
+		(end 201.93 90.13)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 48)
+		(uuid "f55ef77c-a8f1-480f-acd0-2899fbab54e8")
 	)
 	(segment
 		(start 149.86 107.95)
