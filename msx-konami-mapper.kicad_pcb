@@ -5363,9 +5363,21 @@
 		(uuid "b9a0463a-9eb8-427d-a94d-a3f802ff32c6")
 	)
 	(gr_text "MSX rules"
-		(at 147.955 52.07 0)
+		(at 140.97 52.07 0)
 		(layer "B.SilkS")
 		(uuid "1c1f2834-f4bb-48e2-88b1-cfd5a06efaaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "rear"
+		(at 204.47 51.435 0)
+		(layer "B.SilkS")
+		(uuid "a21203e7-0cac-40f0-a36d-bd691883135c")
 		(effects
 			(font
 				(size 1 1)
