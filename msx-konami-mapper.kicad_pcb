@@ -5282,7 +5282,7 @@
 	)
 	(gr_circle
 		(center 200.8 97)
-		(end 202.8 97)
+		(end 203.1 97)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -5323,7 +5323,7 @@
 	)
 	(gr_circle
 		(center 144.5 92)
-		(end 146.5 92)
+		(end 146.8 92)
 		(stroke
 			(width 0.05)
 			(type default)
