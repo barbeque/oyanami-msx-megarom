@@ -1,4 +1,5 @@
 *.lck
+*.rom
 *autosave*
 msx-megarom-v*
 *.bak
