@@ -4902,7 +4902,7 @@
 		)
 		(uuid "31ae308e-676e-4313-a5a6-8f8b05e339f3")
 	)
-	(text "A14 = Page 0 (unpaged)\nA13+A14 = Page 1\nA15 = Page 2\nA13 + A15 = Page 3\n\nA15 doesn't seem to actually matter for the mirroring,\nso we probably want slot sel and read/write to a13, a14...\ndo we need an additional '02 for decoding?"
+	(text "A14 = Page 0 (unpaged)\nA13+A14 = Page 1\nA15 = Page 2\nA13 + A15 = Page 3\n\nEssentially, A13 or A15 = paged\nneither A13 nor A15 = unpaged"
 		(exclude_from_sim no)
 		(at 71.628 90.932 0)
 		(effects
