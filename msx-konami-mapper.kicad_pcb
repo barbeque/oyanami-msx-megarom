@@ -76,7 +76,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "msx-megarom-v1")
+			(outputdirectory "msx-megarom-v1.1")
 		)
 	)
 	(net 0 "")
