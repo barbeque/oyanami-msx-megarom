@@ -21,3 +21,5 @@ Recommended settings:
 | SW1      | 2-pin DIP switch | | |
 
 I also recommend getting a case for the PCB from somewhere like [Retro Game Restore](https://retrogamerestore.com/store/msx_cart_shell).
+
+Beware! Using socketed ICs may not leave enough vertical height for a standard Konami-style cartridge case to close.
