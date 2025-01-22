@@ -9,6 +9,21 @@ Recommended settings:
  - ENIG or Hard Gold finishing
  - Beveled or chamfered edge connector
 
+## Known Working Games
+ - Contra (MSX2)
+ - F1 Spirit
+ - Nemesis
+ - Nemesis 2
+ - Parodius
+ - Salamander
+ - Spy vs. Spy II (64kB Konami-mapper version)
+ - The Fairyland Story
+ - The Maze of Galious: Knightmare 2
+ - Treasure of USAS (MSX2)
+ - Vampire Killer (MSX2)
+
+This is an incomplete list, please submit pull requests for any other games you have tested.
+
 ## Bill of Materials
 
 | Position | Component     | Digi-Key link      | Comments  |
