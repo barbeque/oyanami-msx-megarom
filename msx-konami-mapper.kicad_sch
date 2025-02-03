@@ -5918,6 +5918,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "399-9776-ND"
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3884905-9653-450c-b530-c0f912c500be")
 		)
@@ -5978,6 +5987,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "296-1627-5-ND"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -6082,6 +6100,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "296-1627-5-ND"
 			(at 95.25 27.94 0)
 			(effects
 				(font
@@ -6266,6 +6293,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "296-1627-5-ND"
+			(at 154.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b295e1d1-0480-4890-ae41-4e1f9ae6ebc7")
 		)
@@ -6433,6 +6469,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-9776-ND"
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -7052,6 +7097,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "296-34025-5-ND"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68a7f099-e22e-4334-8adf-ad61b339540b")
 		)
@@ -7444,6 +7498,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "SST39SF040-70-4C-PHE-ND"
+			(at 264.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "04a22b65-d16f-4a3d-83c6-c038cacc7dbb")
 		)
@@ -7660,6 +7723,15 @@
 			)
 		)
 		(property "Description" "8 resistor network, star topology, bussed resistors, small US symbol"
+			(at 223.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "4609X-101-103LF-ND"
 			(at 223.52 44.45 0)
 			(effects
 				(font
@@ -8087,6 +8159,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "296-1627-5-ND"
+			(at 138.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b295e1d1-0480-4890-ae41-4e1f9ae6ebc8")
 		)
@@ -8183,6 +8264,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "296-1627-5-ND"
 			(at 111.76 27.94 0)
 			(effects
 				(font
