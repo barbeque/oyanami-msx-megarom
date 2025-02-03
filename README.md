@@ -29,7 +29,7 @@ This is an incomplete list, please submit pull requests for any other games you 
 | Position | Component     | Digi-Key link      | Comments  |
 |----------|---------------|--------------------|-----------|
 | U1       | SST39SF040 DIP EEPROM | | |
-| U3       | 74LS670 DIP | | |
+| U3       | 74LS670 DIP | | Do not use ALS, see below |
 | U4       | 74LS02 DIP | | |
 | C...     | 0.1µF through-hole ceramic capacitor | | |
 | RN1      | 10kΩ x 8 (9-pin SIP) resistor network | | |
@@ -38,3 +38,5 @@ This is an incomplete list, please submit pull requests for any other games you 
 I also recommend getting a case for the PCB from somewhere like [Retro Game Restore](https://retrogamerestore.com/store/msx_cart_shell).
 
 Beware! Using socketed ICs may not leave enough vertical height for a standard Konami-style cartridge case to close.
+
+74ALS670 has been reported not to work with MSX Turbo-R systems. Please use only the LS variant.
