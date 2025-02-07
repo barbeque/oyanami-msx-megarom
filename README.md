@@ -10,17 +10,53 @@ Recommended settings:
  - Beveled or chamfered edge connector
 
 ## Known Working Games
+ - 1942 (MSX2 version only)
+ - Arkanoid 2 - Revenge of DOH
+ - Ashguine Story I
+ - Bubble Bobble
  - Contra (MSX2)
+ - Cyborg Z
+ - Digital Devil Story
+ - Dragon Buster
+ - Dragon Quest 1 (both MSX1, MSX2 versions)
+ - Druid
  - F1 Spirit
+ - Family Billiards
+ - Fantasy Zone 1
+ - Final Zone Wolf
+ - Ganbare Goemon
+ - Gangjeol Robocop
+ - Genesis - Dawn of a New Day
+ - Hai No Majutsushi
+ - Hinotori
+ - King Kong 2
+ - King's Valley 2 Edit Contest Edition
+ - King's Valley 2 (MSX2 only)
+ - Metal Gear
+ - Mr. Ninja Ashura's Chapter
  - Nemesis
  - Nemesis 2
  - Parodius
+ - Pengo
+ - Penguin Adventure
+ - Pennant Race
+ - Return of Jelda
  - Salamander
  - Spy vs. Spy II (64kB Konami-mapper version)
+ - Seikima 2 Special - Tetsuji
+ - Street Master
+ - Super Bioman 4
+ - Super Boy 3
+ - Super Runner
+ - Tengoku Yoitoko - Heaven
  - The Fairyland Story
+ - The Fantasm Soldier Valis
  - The Maze of Galious: Knightmare 2
+ - Topple Zip MSX2
  - Treasure of USAS (MSX2)
  - Vampire Killer (MSX2)
+ - Wonsiin
+ - Young Sherlock: Legacy of Doyle
 
 This is an incomplete list, please submit pull requests for any other games you have tested.
 
@@ -40,3 +76,7 @@ I also recommend getting a case for the PCB from somewhere like [Retro Game Rest
 Beware! Using socketed ICs may not leave enough vertical height for a standard Konami-style cartridge case to close.
 
 74ALS670 has been reported not to work with MSX Turbo-R systems. Please use only the LS variant.
+
+## Special Thanks
+ - bsittler for the help and inspiration to get this figured out;
+ - Annual_Bottle_4639 on Reddit for testing additional games
