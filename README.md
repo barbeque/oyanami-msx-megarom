@@ -14,7 +14,7 @@ Recommended settings:
  - Arkanoid 2 - Revenge of DOH
  - Ashguine Story I
  - Bubble Bobble
- - Contra (MSX2)
+ - Contra (MSX2; CRC32: 4e82660d)
  - Cyborg Z
  - Digital Devil Story
  - Dragon Buster
@@ -79,4 +79,5 @@ Beware! Using socketed ICs may not leave enough vertical height for a standard K
 
 ## Special Thanks
  - bsittler for the help and inspiration to get this figured out;
+ - Pax for CRC32s;
  - Annual_Bottle_4639 on Reddit for testing additional games
