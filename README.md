@@ -34,7 +34,7 @@ Recommended settings:
  - King's Valley 2 (MSX2 only)
  - Metal Gear
  - Mr. Ninja Ashura's Chapter
- - Nemesis
+ - Nemesis (CRC32: 4dfcc009)
  - Nemesis 2
  - Parodius
  - Pengo
