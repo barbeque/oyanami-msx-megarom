@@ -32,7 +32,7 @@ Recommended settings:
  - King Kong 2
  - King's Valley 2 Edit Contest Edition
  - King's Valley 2 (MSX2 only)
- - Metal Gear
+ - Metal Gear (CRC32: e85c5731)
  - Mr. Ninja Ashura's Chapter
  - Nemesis (CRC32: 4dfcc009)
  - Nemesis 2
