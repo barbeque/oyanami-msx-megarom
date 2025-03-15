@@ -6,7 +6,7 @@ This project was built as part of a [Leaded Solder blog](https://www.leadedsolde
 Articles so far about this project:
  - [Oya, I've heard of Mega-ROMs](https://www.leadedsolder.com/2024/09/03/msx-megarom-oyanami.html)
 
-If it's useful to you, please consider supporting the blog through Patreon or Ko-Fi. All money goes directly to future projects like this.
+If it's useful to you, please consider supporting the blog through [Patreon](https://patreon.com/leadedsolder) or [Ko-Fi](https://ko-fi.com/leadedsolder). All money goes directly to future projects like this.
 
 ## Build It Yourself!
 The Oyanami board is open-source. You can grab the Gerber files from [the Releases page](https://github.com/barbeque/oyanami-msx-megarom/releases) and send those to a fabricator of your choice.
