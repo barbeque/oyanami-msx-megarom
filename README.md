@@ -1,6 +1,8 @@
 # Oyanami
 TODO: Overview
 
+This project was built as part of a [Leaded Solder blog entry](https://www.leadedsolder.com/). If it's useful to you, please consider supporting the blog through Patreon or Ko-Fi. All money goes directly to future projects like this.
+
 ## Build It Yourself!
 The Oyanami board is open-source. You can grab the Gerber files from [the Releases page](https://github.com/barbeque/oyanami-msx-megarom/releases) and send those to a fabricator of your choice.
 
@@ -76,6 +78,13 @@ I also recommend getting a case for the PCB from somewhere like [Retro Game Rest
 Beware! Using socketed ICs may not leave enough vertical height for a standard Konami-style cartridge case to close.
 
 74ALS670 has been reported not to work with MSX Turbo-R systems. Please use only the LS variant.
+
+## Version History
+### v1.2: In development
+Still in development. Adds write-enable pin to ROM to support in-MSX reflashing.
+
+### v1.1: July 2024
+Initial working version. Supports read-only games.
 
 ## Special Thanks
  - bsittler for the help and inspiration to get this figured out;
